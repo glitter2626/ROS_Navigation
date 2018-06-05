@@ -13,5 +13,6 @@
     <rosparam file="$(find moblie_car_navigation)/yaml/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find moblie_car_navigation)/yaml/global_costmap_params.yaml" command="load" />
     <rosparam file="$(find moblie_car_navigation)/yaml/base_local_planner_params.yaml" command="load" />
+    <param name="controller_frequency" value="10"/>
   </node>
 </launch>
